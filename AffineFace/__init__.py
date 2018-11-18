@@ -1,0 +1,1 @@
+from AffineFace.Image import Image
