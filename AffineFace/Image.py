@@ -33,5 +33,3 @@ class Image(object):
         matrix = inv(np.append(sRt, np.array([0, 0, 1]).reshape(1, -1), axis=0))
 
         return self.im.transform(size, PIL.Image.AFFINE, coefs, resample=resample), matrix
-    
-
